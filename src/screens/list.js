@@ -137,6 +137,7 @@ const ListContact = () => {
                       },
                       contentStyle: { height: 40 },
                       onPress: () => {
+                        dispatch(setListContactById({}))
                         navigation.navigate("FormContact")
                       },
                     }}>
